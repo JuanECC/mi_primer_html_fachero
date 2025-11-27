@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(175, 245, 147);
+}
+.start {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: rgb(23, 23, 90);
+}
+
+.mi_foto{
+    width: 250px;
+    border-radius: 15%;
+}
