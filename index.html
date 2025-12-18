@@ -8,7 +8,7 @@
     <title>Mi blog</title>
 </head>
 <body>
-    <header>
+    <header class="mi-clase">
         <h1> Bienvenidos a mi blog</h1>
         <nav>
             <a href="#inicio">Inicio</a>
@@ -25,12 +25,12 @@
 
         </section>
     </main>
-    <div id="sobre_mi">
+    <div id="sobre_mi" class="mi-clase a">
         <p>Me gusta aprender cada dia mas y compartir mis conocimientos. Vendo hamburguesitas en mis tiempos libres. Soy un artista de medio tiempo. Soy tecnico en relaracion de equipos. Me llaman todologo </p>
         <br>
         <p>Mis pasatiempos son:</p>
         <ul>
-            <li>Programar</li>
+            <li id="mi-id">Programar</li>
             <li>Diseñar webs</li>
             <li>Jugar videojuegos</li>
             <li>leer</li>
@@ -61,7 +61,34 @@
 
     <label for="mensaje">Mensaje</label><br>
     <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
-    <input type="submit" value="Enviar">
+    <button type="submit" value="Enviar"></button>
+
+
+    <!-- Coloca esto antes del footer -->
+<section class="display-examples">
+  <h2>Ejemplos de display</h2>
+
+  <!-- Block -->
+  <h3>display: block</h3>
+  <p>Las cajas block ocupan todo el ancho disponible y se colocan una debajo de la otra:</p>
+  <div class="block">Caja BLOCK 1</div>
+  <div class="block">Caja BLOCK 2</div>
+
+  <!-- Inline -->
+  <h3>display: inline</h3>
+  <p>Las cajas inline se comportan como texto: se ponen una junto a la otra y no respetan width/height:</p>
+  <span class="inline">INLINE 1</span>
+  <span class="inline">INLINE 2</span>
+  <span class="inline">INLINE 3</span>
+
+  <!-- Inline-block -->
+  <h3>display: inline-block</h3>
+  <p>Las cajas inline-block se alinean una junto a otra, pero sí respetan width y height:</p>
+  <div class="inline-block">INLINE-BLOCK 1</div>
+  <div class="inline-block">INLINE-BLOCK 2</div>
+  <div class="inline-block">INLINE-BLOCK 3</div>
+</section>
+
     <footer>
         <p> 2025 Mi blog. Todos los derechos reservados.</p>
     </footer>

@@ -1,13 +1,97 @@
+*{
+    font-family: Arial, helvetica, sans-serif; 
+}
 body{
-    background-color: rgb(175, 245, 147);
+    background-color: #6e8387 ;
+    color: wheat;
+    
 }
 .start {
-    font-family: Arial, sans-serif;
-    background-color: aliceblue;
-    color: rgb(23, 23, 90);
+    
 }
 
 .mi_foto{
     width: 250px;
     border-radius: 15%;
+}
+
+p{/* Estilo para todos los parrafos etiqueta p*/
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(50, 50, 50);
+    font-family: Arial, helvetica, sans-serif; 
+}
+.mi-clase  {/* Estilo para los parrafos con clase mi-clase esto va dentro de la etiqueta en el atributo class */
+    text-align: start;
+    font-family: italic;
+    font-size: larger;
+display: block;  
+
+}
+#mi-id{/* Estilo para el elemento con id mi-id esto va dentro de la etiqueta en el atributo id */
+
+   font-size: larger;
+}
+
+.mi-clase a{/* Estilo para el elemento con id mi-id CONVINACION */
+
+ color:#d5d2c8 ;
+}
+
+.display-examples {
+   background-color: #6e8387 ;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.display-examples h2,
+.display-examples h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Block */
+.block {
+  display: block;
+  background-color: #e1e4e8;
+  color: #333;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Inline */
+.inline {
+  display: inline;
+  background-color: #f5c27f;
+  color: #333;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+/* Inline-block */
+.inline-block {
+  display: inline-block;
+  background-color: #80aaff;
+  color: #fff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  margin-right: 5px;
+  border: 1px dashed #ccc;
+}
+input{
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    background-color: brown;
+}
+input:hover{
+    background-color: rgb(56, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+div{
+    background-color: rgba(53, 66, 94, 0.5);
 }
